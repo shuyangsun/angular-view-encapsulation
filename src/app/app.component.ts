@@ -3,6 +3,7 @@ import { RouterOutlet } from '@angular/router';
 import { EncapsulationEmulatedComponent } from './encapsulations/encapsulation-emulated/encapsulation-emulated.component';
 import { EncapsulationNoneComponent } from './encapsulations/encapsulation-none/encapsulation-none.component';
 import { EncapsulationShadowDomComponent } from './encapsulations/encapsulation-shadow-dom/encapsulation-shadow-dom.component';
+import { HeaderComponent } from './header/header.component';
 
 @Component({
   selector: 'ave-root',
@@ -12,6 +13,7 @@ import { EncapsulationShadowDomComponent } from './encapsulations/encapsulation-
     EncapsulationEmulatedComponent,
     EncapsulationNoneComponent,
     EncapsulationShadowDomComponent,
+    HeaderComponent,
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss',

@@ -8,9 +8,7 @@ import { Component, ViewEncapsulation } from '@angular/core';
   styleUrl: './encapsulation-shadow-dom.component.scss',
   encapsulation: ViewEncapsulation.ShadowDom,
   host: {
-    class: 'encapsulations',
-  }
+    class: 'encapsulation',
+  },
 })
-export class EncapsulationShadowDomComponent {
-
-}
+export class EncapsulationShadowDomComponent {}

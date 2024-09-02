@@ -8,7 +8,7 @@ import { Component, ViewEncapsulation } from '@angular/core';
   styleUrl: './encapsulation-none.component.scss',
   encapsulation: ViewEncapsulation.None,
   host: {
-    class: 'encapsulations',
+    class: 'encapsulation',
   },
 })
 export class EncapsulationNoneComponent {}

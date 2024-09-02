@@ -1,1 +1,34 @@
-/* You can add global styles to this file, and also import other style files */
+@use "@angular/material" as mat;
+
+$light-theme: mat.define-theme(
+  (
+    color: (
+      theme-type: light,
+      primary: mat.$azure-palette,
+    ),
+    typography: (
+      plain-family: Arial,
+    ),
+    density: (
+      scale: -1,
+    ),
+  )
+);
+
+html {
+  @include mat.core-theme($light-theme);
+  background-color: mat.get-theme-color($light-theme, primary);
+}
+
+h1 {
+  @include mat.core-theme($light-theme);
+  color: mat.get-theme-color($light-theme, on-primary);
+}
+
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+}

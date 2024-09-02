@@ -8,7 +8,7 @@ import { Component, ViewEncapsulation } from '@angular/core';
   styleUrl: './encapsulation-emulated.component.scss',
   encapsulation: ViewEncapsulation.Emulated,
   host: {
-    class: 'encapsulations',
+    class: 'encapsulation',
   },
 })
 export class EncapsulationEmulatedComponent {}
